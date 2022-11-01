@@ -1,0 +1,15 @@
+.alertcard {
+  width: 100%;
+  height: 100%;
+}
+
+.alertcontent {
+  display: grid;
+  grid-template-columns: minmax(100px, 25%) 1fr;
+}
+
+.alertheader {
+  border: 0px, 0px, 0px, 1px;
+  border-style: solid;
+  border-color: lightgreen;
+}
