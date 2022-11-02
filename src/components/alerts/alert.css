@@ -9,7 +9,22 @@
 }
 
 .alertheader {
-  border: 0px, 0px, 0px, 1px;
-  border-style: solid;
-  border-color: lightgreen;
+  border-bottom: 1px solid lightgray;
+}
+
+.alertcount {
+  border: 0.5px solid lightgray;
+  border-radius: 2px;
+}
+
+.parentbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  flex: 1 1 150px; /*  Stretching: */
+  flex: 0 1 150px; /*  No stretching: */
+  margin: 5px;
 }
